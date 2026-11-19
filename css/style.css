@@ -1,0 +1,25 @@
+:root {
+    --deep-violet: #3B146B;
+    --purple: #7B208F;
+    --magenta: #C9349B;
+    --coral-pink: #F36A78;
+    --coral: #F87572;
+    --orange: #FF9B56;
+    --warm-yellow: #EEC61F;
+    --branco: #FFFFFF;
+    --preto: #000000;
+    --texto: #1B2433;
+    --cinza: #4F5A6B;
+    --sombra: 0 4px 14px rgba(11, 29, 58, 0.15);
+}
+
+* { box-sizing: border-box;
+}
+    
+body { 
+    margin: 0;
+    font-family: 'Arial', sans-serif;
+    line-height: 1.5;
+    background-color: var(--purple);
+    color: var(--texto);
+}
