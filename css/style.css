@@ -23,3 +23,96 @@ body {
     background-color: var(--purple);
     color: var(--texto);
 }
+
+.container {
+    max-width: 1100px;
+    margin: 0 auto;
+    padding: 24px 20px;
+}
+
+.topo { background-color: var(--deep-violet);
+    padding: 20px;
+    text-align: center;
+    color: var(--branco);
+}
+
+.topo h1 {
+    margin: 0;
+    font-size: 2.5rem;
+}
+
+.topo p {
+    margin: 8px 0 0;
+    font-size: 1.2rem;
+}
+
+.sigla {
+    font-weight: 800;
+    letter-spacing: 0.3em;
+    color: var(--warm-yellow);
+}
+
+.grade {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+    gap: 20px;
+}
+
+.painel {
+    padding: 20px 24px;
+    border-radius: 12px;
+    background-color: var(--branco);
+    box-shadow: var(--sombra);
+}
+
+.largo {
+    grid-column: 1 / -1;
+}
+
+.painel h2 {
+    margin-top: 0;
+    font-size: 1.8rem;
+    color: var(--deep-violet);
+}
+
+.form label {
+    display: block;
+    margin-bottom: 8px;
+    font-weight: bold;
+}
+
+.form input {
+    width: 100%;
+    padding: 8px;
+    margin-bottom: 16px;
+    border: 1px solid var(--cinza);
+    border-radius: 4px;
+}
+
+.linha {
+    display: flex;
+    gap: 16px;
+}
+
+.linha > div {
+    flex: 1;
+}
+
+button {
+    padding: 10px 20px;
+    background-color: var(--magenta);
+    color: var(--branco);
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: var(--coral-pink);
+}
+
+input:focus_visible,
+button:focus_visible {
+    outline: 2px solid var(--warm-yellow);
+    outline-offset: 2px;
+}
