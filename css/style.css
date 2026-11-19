@@ -116,3 +116,39 @@ button:focus_visible {
     outline: 2px solid var(--warm-yellow);
     outline-offset: 2px;
 }
+
+.mensagem {
+    margin-top: 16px;
+    padding: 12px;
+    border-radius: 4px;
+    background-color: var(--warm-yellow);
+    color: var(--preto);
+    font-weight: bold;
+}
+
+.mensagem.erro {
+    background-color: var(--coral);
+    color: var(--branco);
+}
+
+.mensagem.sucesso {
+    background-color: var(--warm-yellow);
+    color: var(--preto);
+}
+
+.resumo dd {
+    margin: 0;
+    font-weight: 800;
+    color:#FF9B56
+}
+
+.lista {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(150px, 1fr));
+    gap: 16px;
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+
+
