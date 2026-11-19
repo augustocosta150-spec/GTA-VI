@@ -29,4 +29,21 @@ function capitalizar(texto) {
     }
 }
 
+function validar (recruta) {
+    if (recruta.codinome === "") {
+        throw new Error("Informe seu nickname");
+    if (recruta.nome === "") {
+        throw new Error("Informe seu nome");
+    }
+    if (recruta.idade === "") {
+        throw new Error("A idade deve ser um numero inteiro entre 1 e 120.");
+    }
+    
+    }
+    if (recruta.plataforma === "") {
+        throw new Error("A plataforma é obrigatória");
+    }
+    if (recruta.email === "") {
+        throw new Error("O email é obrigatório");
+
 

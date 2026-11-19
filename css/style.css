@@ -20,7 +20,7 @@ body {
     margin: 0;
     font-family: 'Arial', sans-serif;
     line-height: 1.5;
-    background-color: var(--purple);
+    background-color: var(--magenta);
     color: var(--texto);
 }
 
@@ -30,7 +30,7 @@ body {
     padding: 24px 20px;
 }
 
-.topo { background-color: var(--deep-violet);
+.topo { background-color: var(--warm-yellow);
     padding: 20px;
     text-align: center;
     color: var(--branco);
